@@ -7,12 +7,6 @@ name = "rsoft_cad"
 version = "0.1.0"
 description = "This repository contains tools for designing, simulating, and analysing photonic lanterns "
 readme = "README.md"
-authors = [{name = "Kok-Wei Bong", email = "bongkokwei@gmail.com"}]
+authors = [{ name = "Kok-Wei Bong", email = "kok-wei.bong@sydney.edu.au" }]
 requires-python = ">=3.6"
-dependencies = [
-    "numpy>=1.2",
-    "matplotlib>=2.0",
-    "pandas",
-    "scipy",
-    "seaborn",
-]
+dependencies = ["numpy>=1.2", "matplotlib>=2.0", "pandas", "scipy", "seaborn"]

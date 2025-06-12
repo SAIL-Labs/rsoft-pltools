@@ -1,0 +1,57 @@
+# GitHub Pages configuration for RSoft CAD Documentation
+title: RSoft CAD - Photonic Lantern Simulation Toolkit
+description: A comprehensive Python package for designing, simulating, and analysing photonic lanterns
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - installation.md
+  - quick-start.md
+  - tutorials.md
+  - api-reference.md
+  - examples.md
+  - changelog.md
+
+# Site settings
+url: https://bongkokwei.github.io
+baseurl: /rsoft_cad
+author:
+  name: Kok-Wei Bong
+  email: bongkokwei@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Collections
+collections:
+  api:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
